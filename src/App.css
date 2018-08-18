@@ -1,0 +1,101 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+  background-image: url("http://www.hdnicewallpapers.com/Walls/Big/Weapons/Shotgun_Weapon_HD_Desktop_Background_Wallpaper.jpg");
+  background-repeat: repeat;
+  background-attachment: scroll;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.One {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+}
+.favor {
+  height: 25%;
+  width: 70%;
+  align-content: stretch;
+  cursor: pointer;
+}
+.big {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  border: 5px solid gray;
+  width: 50%;
+  margin: 3% 0 3% 0;
+  border-style: outset;
+  background-color: black;
+  box-shadow: 10px 10px rgb(228, 9, 9);
+  background-image: url
+    (
+      "http://www.hdnicewallpapers.com/Walls/Big/Weapons/Shotgun_Weapon_HD_Desktop_Background_Wallpaper.jpg"
+    );
+}
+
+.joke {
+  cursor: pointer;
+}
+.addToFav {
+  cursor: pointer;
+}
+.classname:hover {
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0.05, #dfdfdf),
+    color-stop(1, #ededed)
+  );
+  background: -moz-linear-gradient(center top, #dfdfdf 5%, #ededed 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+  background-color: #dfdfdf;
+  /* cursor: crosshair; */
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  color: white;
+  font-size: 300%;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
