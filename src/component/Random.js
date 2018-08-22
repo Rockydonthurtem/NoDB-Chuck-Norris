@@ -47,6 +47,7 @@ class Random extends Component {
         >
           Take a Guess
         </button>
+        {this.props.children}
       </div>
     );
   }

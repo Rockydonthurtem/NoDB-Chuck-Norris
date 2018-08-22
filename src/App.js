@@ -114,7 +114,10 @@ class App extends Component {
           <br />
           <br />
           <br />
-          <Random />
+          <Random>
+            What is this you ask? This is a rendering of a child prop using
+            props.children of this.props.children
+          </Random>
         </div>
         <br />
         <br />
