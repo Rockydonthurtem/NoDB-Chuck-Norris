@@ -115,7 +115,7 @@ class App extends Component {
           <br />
           <br />
           <Random>
-<<<<
+            <p>What say you, this is props.children</p>
           </Random>
         </div>
         <br />
